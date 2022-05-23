@@ -1,0 +1,332 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(../pic/images.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: normal;
+  }
+  .main{
+      border: 2px solid gray;
+      background-color: white;
+      margin-left: 1%;
+      text-align: center;
+      height: 52.3%;
+      margin-top: -3.4%;
+      width: 40.3%;
+      padding-bottom: 5.2%;
+      position: absolute;
+      
+  }
+  .main2{
+    border: 2px solid gray;
+    background-color: white;
+    margin-left: 41.5%;
+    text-align: center;
+    height: 10.5%;
+    margin-top: -3.4%;
+    width: 28.64%;
+    padding-bottom: 5.3%;
+    position: absolute;  
+  }
+
+  .main3{
+    border: 2px solid gray;
+    background-color: white;
+    margin-left: 41.5%;
+    text-align: center;
+    height: 3.5%;
+    margin-top: 7.3%;
+    width: 28.64%;
+    padding-bottom: 5%;
+    position: absolute;  
+  }
+  
+  .main4{
+    border: 2px solid gray;
+    background-color: white;
+    margin-left: 41.5%;
+    text-align: center;
+    height: 3%;
+    margin-top: 14.2%;
+    width: 28.64%;
+    padding-bottom: 5.2%;
+    position: absolute;  
+  }
+  
+  .main5{
+    border: 2px solid gray;
+    background-color: white;
+    margin-left: 41.5%;
+    text-align: center;
+    height: 3.1%;
+    margin-top: 21.11%;
+    width: 28.64%;
+    padding-bottom: 5.2%;
+    position: absolute;  
+  }
+
+  .main6{
+    border: 2px solid gray;
+    background-color: white;
+    margin-left: -169%;
+    text-align: center;
+    height: 386%;
+    margin-top: -86%;
+    width: 27%;
+    padding-bottom: 18.2%;
+    position: absolute;   
+  }
+
+  .mon{
+    color: black;
+    font-size: 22px;   
+    position: absolute;
+    bottom: 10%;
+    left: 10%;    
+  }
+  .vip{
+    color: black;
+    font-size: 22px;   
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+  }
+  
+  .gar{
+    color: black;
+    font-size: 22px;   
+    position: relative;
+    left: -27%;
+    top: 90%; 
+  }
+
+  .pic{  
+    position: absolute;
+     top: 30%; 
+     left: 17%;
+  }
+  
+  .bar{
+    color: black;
+    font-size: 20px;   
+    position: relative;
+    left: 1%;
+    top: 150%; 
+  }
+  .midell {
+    max-width: 95%;
+    margin-right: auto;
+    padding: 15.5%;
+  }
+  
+  .underli{
+  background-color:#FFFFFF;
+  text-decoration: underline   rgb(0, 255, 68) ;
+  font-size: 22px;
+  }
+
+  .ren{
+    color: black; 
+    position: relative;
+    left: -22%;
+    top: 70%; 
+  }
+
+  .bo{
+    color: black;  
+    position: relative;
+    left: -21%;
+    top: 109%;
+  }
+
+  .ha{
+    color: black;  
+    position: relative;
+    left: -21%;
+    top: 127%; 
+  }
+
+  .fi{
+    color: black;
+    font-size: 15px;   
+    position: relative;
+    left: -17%;
+    top: 30%; 
+  }
+
+  .sza{
+    color: black;
+    font-size: 15px;   
+    position: relative;
+    left: -18.5%;
+    top: 30%; 
+  }
+
+  .vissz{
+    color: black;
+    font-size: 15px;   
+    position: relative;
+    left: -26%;
+    top: 30%; 
+  }
+
+  button {
+    border: none;
+    outline: 0;
+    padding: 1%;
+    width: 25%;
+    color: white;
+    background-color: #00ff00;
+    cursor: pointer;
+    border-radius: 4px;
+    position: absolute;
+    left: 74%;
+    top: 1%;
+  }
+  
+  .shopcar{
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 18px;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+    position: absolute;
+    left: 83%;
+    top: 80%;
+  }
+
+  .dara{
+    color: gray;  
+    position: absolute;
+    left: 82.9%;
+    top: 84%; 
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 170px;
+    background-color: black;
+    border-radius: 4px;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .demo2{
+    color: black;  
+    position: absolute;
+    left: 42%;
+    top: 47%;
+  }
+
+  .demo5{
+    color: black;  
+    position: absolute;
+    left: 42%;
+    top: 67%;
+  }
+
+  .demo6{
+    color: black;  
+    position: absolute;
+    left: 59.5%;
+    top: 67%;
+  }
+
+  .es{
+    color: black;  
+    position: absolute;
+    left: 57%;
+    top: 67%; 
+  }
+
+  .koz{
+    color: black;  
+    position: absolute;
+    left: 67.5%;
+    top: 67%; 
+  }
+
+  .custom-select {
+    position: absolute;
+    font-family: Arial;
+    left: 71%;
+    top: 81%;
+    border: 1px solid black;
+  }
+  
+  .custom-select select {
+    display: none; 
+  }
+  
+  .select-selected {
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #000000 transparent transparent transparent;
+  }
+  
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #000000 transparent;
+    top: 7px;
+  }
+  
+  .select-items div,.select-selected {
+    color: #000000;
+    padding: 8px 16px;
+    border: 1px solid black transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .select-items {
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .hmenu{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    color: wheat;
+  }

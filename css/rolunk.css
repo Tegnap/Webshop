@@ -1,0 +1,44 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+  background-image: url(../pic/images.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.koz p{ 
+color: azure;
+font-size: large;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+.easteregg{
+  margin-top: 29.4%;
+  margin-left: 99.5%;
+  width:0.5%;
+  position: absolute;
+}
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+.hmenu{
+  position: absolute;
+  left: 49%;
+  top: 42%;
+  color: wheat;
+}

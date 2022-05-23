@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+ }
+
+ body{
+    background-image: url(../pic/images.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+pre{
+    font-size: xx-large;
+    color: wheat;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+  }
+  
+.hmenu{
+    position: absolute;
+    left: 48%;
+    top: 90%;
+    color: wheat;
+  }

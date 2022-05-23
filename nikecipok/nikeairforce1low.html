@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/termek.css">
+    <title>K&S</title>
+  <link rel = "icon" href ="../pic/55bcfe34439ef_thumb900.webp" type = "image/x-icon">
+</head>
+<body>
+    <form>
+    <div class="midell">
+        <div class="main">
+        <img src="../pic/image_f89c3ee0-fafe-4a95-96ec-9810a26dad32_750x.png.webp" width="100%">
+        </div>
+        <div class="main2">
+            <h1>NIKE AIR FORCE 1 LOW SUPREME WHITE</h1>
+            <div class="mon">
+                <h1>89 990 Ft</h1>
+            </div>
+            <div class="vip">
+                <h5>10% kedvezmény a Kandó tagoknak, <a href="../csatlakozz.html" style="text-decoration: none;">csatlakozz most!</a></h5>
+            </div>           
+        </div>
+        <div class="main3">
+            <div class="gar">
+                <h2>Garancia</h2>
+            </div>
+            <div class="pic">
+            <div class="tooltip">
+                    <img src="../pic/images1.png" width="11%">
+                    <span class="tooltiptext">A megjelenytett garancia<br> idő egy darabra<br> érvényes, több darab<br> rendelése esetén ez<br> módosulhat.</span>
+                </div>
+            </div>
+            <div class="bar">
+                <h3>Fél év Basic garanciával <u class="underli">1 év gyári garanciával</u> </h3>
+            </div>
+        </div>
+        <div class="main4">
+            <h2 class="ren"><strong>Mai rendelés esetén</strong></h2>
+            <h3 class="bo"><img src="../pic/181591.png" width="5%" style="position: absolute; left: 170px;"> Átvétel boltban:</h3> <h3 class="demo2" id="demo"></h3>
+            <h3 class="ha"><img src="../pic/free-truck-icon-1058-thumb.png" width="5%" style="position: absolute; left: 170px;">Házhozszállítás:</h3> <h3 class="demo5" id="demo3"></h3><h3 class="demo6" id="demo4"></h3>
+        </div>
+        <div class="main5">
+            <div class="main6">
+               <img id="btn1" src="../pic/image_f89c3ee0-fafe-4a95-96ec-9810a26dad32_750x.png.webp" width="100%"><br>
+               <img id="btn2" src="../pic/image_46911c85-f729-4d27-99c8-70542cf3f96e_1200x630.webp" width="100%"><br>
+               <img id="btn3" src="../pic/IMG_2583_1024x.webp" width="100%"><br>
+               <img id="btn4" src="../pic/1612896068109_SupremexNi5.avif" width="100%"><br>
+               <img id="btn5" src="../pic/ix.jpg " width="100%"><br>
+               <img id="btn6" src="../pic/nike-air-force-1-low-supreme-white-the-hype-keys-sneakers-2_1024x.jpg" width="100%">
+            </div>
+            <div class="fi">
+                <h3>Fizetés utánvéttelFizetés utánvéttel</h3>
+            </div>
+            <div class="sza">
+                <h3>Ingyenes szállítás és visszaküldés</h3>
+            </div>
+            <div class="vissz">
+                <h3>90 napos visszaküldés</h3>
+            </div>
+            <button onclick="shopcarr(darab.value)" type="submit" ><img src="../pic/263142.png" width="25%"></button>
+        </div>
+        <input type="text" class="shopcar" id="darab" required>
+        <div class="dara">
+            <h3>darab</h3>
+            </div>
+            
+            <div class="custom-select" style="width:200px;">
+                <select>
+                  <option value="0">Válassz méretet</option>
+                  <option value="1">40</option>
+                  <option value="2">41</option>
+                  <option value="3">42</option>
+                  <option value="4">43</option>
+                  <option value="5">44</option>
+                  <option value="6">45</option>
+                  <option value="7">46</option>
+                </select>
+              </div>
+            </div>
+        <div class="hmenu">
+            <h3><a href="../index.html" style="text-decoration: none; color: azure;"> Főoldal</a> / <a href="../nikecipo.html" style="text-decoration: none; color: orange;"> Nike cipő</a> / <a href="../kosar.html" style="text-decoration: none; color: lightgreen;">Kosar</a> </h3>
+        </div>
+    <script>
+        const days = ["hétfő","kedd","szerda","csütörtök","péntek","szombat","vasárnap"];
+        const dt = new Date();
+        let day = days[dt.getDay()];
+        document.getElementById("demo").innerHTML = dt.getFullYear() + "." + (dt.getMonth() + 1) + "." + (dt.getDate() + 1) + ". " + day;
+        </script>
+
+<script>
+    const d = new Date();
+    document.getElementById("demo3").innerHTML = d.getFullYear() + "." + (d.getMonth() + 1) + "." + (d.getDate() + 6) + ".és ";
+    </script>
+
+<script>
+    const dtt = new Date();
+    document.getElementById("demo4").innerHTML = dtt.getMonth() + 1 + "." + (dtt.getDate() + 8) + ". közt ";
+    </script>
+
+<script>
+    var x, i, j, l, ll, selElmnt, a, b, c;
+    x = document.getElementsByClassName("custom-select");
+    l = x.length;
+    for (i = 0; i < l; i++) {
+      selElmnt = x[i].getElementsByTagName("select")[0];
+      ll = selElmnt.length;
+      a = document.createElement("DIV");
+      a.setAttribute("class", "select-selected");
+      a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+      x[i].appendChild(a);
+      b = document.createElement("DIV");
+      b.setAttribute("class", "select-items select-hide");
+      for (j = 1; j < ll; j++) {
+        c = document.createElement("DIV");
+        c.innerHTML = selElmnt.options[j].innerHTML;
+        c.addEventListener("click", function(e) {
+            var y, i, k, s, h, sl, yl;
+            s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+            sl = s.length;
+            h = this.parentNode.previousSibling;
+            for (i = 0; i < sl; i++) {
+              if (s.options[i].innerHTML == this.innerHTML) {
+                s.selectedIndex = i;
+                h.innerHTML = this.innerHTML;
+                y = this.parentNode.getElementsByClassName("same-as-selected");
+                yl = y.length;
+                for (k = 0; k < yl; k++) {
+                  y[k].removeAttribute("class");
+                }
+                this.setAttribute("class", "same-as-selected");
+                break;
+              }
+            }
+            h.click();
+        });
+        b.appendChild(c);
+      }
+      x[i].appendChild(b);
+      a.addEventListener("click", function(e) {
+          e.stopPropagation();
+          closeAllSelect(this);
+          this.nextSibling.classList.toggle("select-hide");
+          this.classList.toggle("select-arrow-active");
+        });
+    }
+    function closeAllSelect(elmnt) {
+      var x, y, i, xl, yl, arrNo = [];
+      x = document.getElementsByClassName("select-items");
+      y = document.getElementsByClassName("select-selected");
+      xl = x.length;
+      yl = y.length;
+      for (i = 0; i < yl; i++) {
+        if (elmnt == y[i]) {
+          arrNo.push(i)
+        } else {
+          y[i].classList.remove("select-arrow-active");
+        }
+      }
+      for (i = 0; i < xl; i++) {
+        if (arrNo.indexOf(i)) {
+          x[i].classList.add("select-hide");
+        }
+      }
+    }
+    document.addEventListener("click", closeAllSelect);
+    </script>
+
+    <script>
+        let img = document.querySelector('img');
+        let btn1 = document.querySelector('#btn1');
+        let btn2 = document.querySelector('#btn2');
+        let btn3 = document.querySelector('#btn3');
+        let btn4 = document.querySelector('#btn4');
+            btn1.addEventListener('click', () => {
+                img.src = '../pic/image_f89c3ee0-fafe-4a95-96ec-9810a26dad32_750x.png.webp';
+                })
+            btn2.addEventListener('click', () => {
+                img.src = '../pic/image_46911c85-f729-4d27-99c8-70542cf3f96e_1200x630.webp';
+                })
+            btn3.addEventListener('click', () => {
+                img.src = '../pic/IMG_2583_1024x.webp';
+                })
+            btn4.addEventListener('click', () => {
+                img.src = '../pic/1612896068109_SupremexNi5.avif';
+                })
+            btn5.addEventListener('click', () => {
+                img.src = '../pic/ix.jpg';
+                })
+            btn6.addEventListener('click', () => {
+                img.src = '../pic/nike-air-force-1-low-supreme-white-the-hype-keys-sneakers-2_1024x.jpg';
+                })
+    </script>
+    <script>
+        
+        function shopcarr(darab) {
+        if (darab == 0) {
+            alert("Nincsen megadva a darab darabszám")
+          }
+          else{
+                keys = Object.keys(localStorage),
+                i = keys.length;
+                let x = 0;
+                while ( i-- ) {
+                  if (keys[i].includes("name"))
+                  {
+                    if(localStorage.getItem(keys[i]) == "NIKE AIR FORCE 1...")
+                      {
+                        let db = parseInt(localStorage.getItem("darab"+keys[i].substr(4)))
+                        db += parseInt(darab)
+                        localStorage.setItem("darab"+keys[i].substr(4),db)
+                        localStorage.setItem("ossz"+keys[i].substr(4),db * 89990)
+                        x++
+                        alert("Sikeresen frissítetted a kosaradat")
+                      }
+                  }     
+                }
+                if ( x == 0)  
+                {
+                  keys = Object.keys(localStorage),
+                  idx = keys.length /4 + 1;
+                  localStorage.setItem('name' + idx, 'NIKE AIR FORCE 1...')
+                  localStorage.setItem('darab' + idx, darab)
+                  localStorage.setItem('ar' + idx, "89990")
+                  localStorage.setItem('ossz' + idx, parseInt(darab) * 89990)
+                  alert("Sikeresen hozzá adtad a kosárhoz")
+                }
+          }
+        }       
+      </script>
+    </form>
+</body>
+</html>
