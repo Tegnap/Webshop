@@ -1,0 +1,169 @@
+<html lang="hu">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/fooldal.css">
+  <link rel="stylesheet" href="css/reg.css"> 
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+  <title>K&S</title>
+  <link rel = "icon" href ="/pic/55bcfe34439ef_thumb900.webp" type = "image/x-icon">      
+</head>
+<body>
+  <form>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="modal-box" style="float: right;">
+                <button type="button" class="btn btn-primary btn-lg show-modal" data-toggle="modal" data-target="#myModal">
+                  Regisztráció 
+                </button>                
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content clearfix">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <div class="modal-body">
+                                <h3 class="title">Regisztráció</h3>
+                                <div class="form-group">
+                                    <span class="input-icon"><i class="fa fa-user"></i></span>
+                                    <input type="email" class="form-control" placeholder="E-mail cím" name="email" id="email" required>
+                                </div>
+                                <div class="form-group">
+                                  <span class="input-icon"><i class="fa fa-user"></i></span>
+                                  <input type="text" class="form-control" placeholder="Felhasználónév" name="user" id="user" required>
+                              </div>
+                                <div class="form-group">
+                                    <span class="input-icon"><i class="fas fa-key"></i></span>
+                                    <input type="password" class="form-control" placeholder="Jelszó" name="password" id="password" required>
+                                </div>
+                                <div class="form-group">
+                                  <span class="input-icon"><i class="fas fa-key"></i></span>
+                                  <input type="password" class="form-control" placeholder="Jelszó újra" name="password2" id="password2" required>
+                              </div>
+                                  <div class="my-btn">
+                                <button onclick="regist(email.value, user.value, password.value, password2.value )"  type="submit" class="btn"  >Regisztráció</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="mySidebar" class="sidebar" style="float: left;" >
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="rolunk.html">Rólunk</a>
+  <a href="https://europa.eu/youreurope/business/dealing-with-customers/data-protection/data-protection-gdpr/index_hu.htm">Adatvédelem</a>
+  <a href="https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_hu.htm">ÁFA</a>
+  <a href="kosar.html" style="color: darkgreen;">Kosár</a>
+  <div class="kand"><img src="pic/imageedit_3_3893777332_c4067ae601.png" width="90%"></div>
+</div>
+<h1></h1>
+<div id="main" >
+  <button  class="openbtn" onclick="openNav()" >&#9776; MENU</button>
+
+</div>
+
+<div class="row tartalom"> 
+
+<div class="col-md-4">
+  <div class="img-wrapper">
+  <img class="kep" src="pic/adidas-1498-(600px).jpg">
+  <div class="text_wrapper">
+
+      <h4 id="top"> <a style="text-decoration: none; color: black;" href="adidascipo.html"> Cipők </h4></a>
+
+      <h4 id="top"> <a style="text-decoration: none; color: black;" href="adidasfelsok.html">Felsők</h4></a>
+
+      <h4 id="top"><a style="text-decoration: none; color: black;" href="adidasnadragok.html">Nadrágok</h4></a>
+      
+      <h4 id="top"><a style="text-decoration: none; color: black;" href="adidaskiegeszitok.html">Kiegészítők</h4></a>
+  </div>
+  </div>
+</div>
+
+<div class="col-md-4" >
+  <div class="img-wrapper">
+  <img class="kep" src="pic/Logotipo_Nike.jpg">
+  <div class="text_wrapper">
+
+      <h4 id="top"> <a style="text-decoration: none; color: black;" href="nikecipo.html"> Cipők </h4></a>
+
+      <h4 id="top"> <a style="text-decoration: none; color: black;" href="nikefelsok.html">Felsők</h4></a>
+
+      <h4 id="top"><a style="text-decoration: none; color: black;" href="nikenadragok.html">Nadrágok</h4></a>
+      
+      <h4 id="top"><a style="text-decoration: none; color: black;" href="nikekiegeszitok.html">Kiegészítők</h4></a>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-md-4">
+  <div class="img-wrapper">
+  <img class="kep" src="pic/Puma-logo.png">
+  <div class="text_wrapper">
+
+      <h4 id="top"> <a style="text-decoration: none; color: black;" href="pumacipo.html"> Cipők </h4></a>
+
+      <h4 id="top"> <a style="text-decoration: none; color: black;" href="pumafelsok.html">Felsők</h4></a>
+
+      <h4 id="top"><a style="text-decoration: none; color: black;" href="pumanadragok.html">Nadrágok</h4></a>
+      
+      <h4 id="top"><a style="text-decoration: none; color: black;" href="pumakiegeszitok.html">Kiegészítők</h4></a>
+  </div>
+  </div>
+</div>
+</div>
+
+<button class="shop" onclick="document.location='kosar.html'">
+  <img src="pic/263142.png" width="50%">
+</button>
+
+<script>
+
+function openNav() {
+  document.getElementById("mySidebar").style.width = "200px";
+  document.getElementById("main").style.marginLeft = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script>
+  function regist(cím, user, jel1, jel2) {
+    if (cím !="")
+    if (jel1 == jel2){
+      localStorage.setItem(cím, user)
+      localStorage.setItem(jel1)
+      alert("Regisztrálva")
+    }
+    else{
+      alert("Sikertelen regisztráció")
+    }
+  }
+</script>
+
+<script>
+ 
+    let person = prompt("Az alábbi weblap a Miskolci SZC Kandó Kálmán Informatikai Technikum tanitására van, ezen a webshopon nem lehet venni semmi ilyen csípőt se semmilyen dolgot amit itt mi árulunk. Semmilyen bankkártya adatot nem mentünk és nem vonunk le pénz. Ha ezeket a feltételeket et elfogadod akkor írd be a dobozba: Elfogadom az alábbi feltételeket");
+    if (person == "Elfogadom az alábbi feltételeket") {
+      
+    } else{
+      close();
+    }
+  </script>
+  </form>
+</body>
+</html>
+<!-- 9 -->
